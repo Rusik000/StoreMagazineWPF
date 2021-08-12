@@ -1,0 +1,28 @@
+﻿<Window x:Class="StoreMagazineWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StoreMagazineWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <Border CornerRadius="30" Width="700" Height="500" BorderThickness="1"  >
+            <Border.BorderBrush>
+                <LinearGradientBrush>
+                    <GradientStop Color="#FF8008" Offset="0"/>
+                    <GradientStop Color="#FFC837" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#E55D87" Offset="0"/>
+                    <GradientStop Color="#5FC3E4" Offset="1"/>
+                </LinearGradientBrush>
+                
+            </Border.Background>
+            
+            
+        </Border>
+    </Grid>
+</Window>
